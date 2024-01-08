@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.cover {
+  max-width: 1320px;
+  height: 600px;
+}
+
+#cover1 {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Banner\ Image.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.cover h1,
+h3 {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  text-align: center;
+}
+
+#cover1 h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#cover1 h1 {
+  margin-top: 16px;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
