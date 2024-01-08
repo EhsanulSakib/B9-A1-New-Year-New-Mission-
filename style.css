@@ -125,6 +125,7 @@ h5 {
 #cover-party p {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
+  margin-top: 24px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -401,6 +402,7 @@ p {
 }
 
 .product-text h2 {
+  margin: 16px 0px 22px;
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
