@@ -81,6 +81,7 @@ h5 {
 #offer h5 {
   margin-top: 48px;
   font-size: 24px;
+  text-align: center;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -136,8 +137,9 @@ h5 {
   margin-top: 48px;
   padding: 30px 45px;
   border-radius: 5px;
-  border: none;
-  background-color: #fff;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -147,6 +149,9 @@ h5 {
 }
 
 #cover-party button:hover {
+  background-color: #fff;
+  color: #070211;
+  transition: 0.3s ease;
 }
 
 #cover-party .right {
@@ -208,6 +213,8 @@ h5 {
 }
 
 #place button:hover {
+  background-color: rgb(231, 0, 0);
+  transition: 0.3s ease;
 }
 
 /* coming soon */
@@ -370,7 +377,7 @@ h5 {
 
 #holiday .right .girl {
   position: relative;
-  right: 211px;
+  right: 212px;
   top: 6px;
   z-index: -1;
 }
@@ -429,8 +436,20 @@ p {
   gap: 24px;
 }
 
-#product .product-img img {
+#product .product-img .img-wrapper {
+  overflow: hidden;
   border-radius: 16px;
+  cursor: pointer;
+}
+
+#product .product-img .img-wrapper img {
+  filter: grayscale(30%);
+}
+
+#product .product-img .img-wrapper img:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+  transition: 0.5s all;
 }
 
 #subscribe {
@@ -482,7 +501,7 @@ p {
   padding: 25px 267px 25px 30px;
   border-radius: 50px 0 0 50px;
   border: none;
-  cursor: pointer;
+  cursor: text;
 }
 
 #subscribe .mail button {
@@ -500,6 +519,10 @@ p {
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
+}
+#subscribe .mail button:hover {
+  background-color: rgb(231, 0, 0);
+  transition: 0.3s ease;
 }
 
 #email::placeholder {
